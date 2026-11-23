@@ -7,7 +7,7 @@ if ($_SERVER["REQUEST_METHOD"] !== "POST") {
     exit;
 }
 
-// Recuperamos los datos del formulario.
+// Recuperamos los datos del formulario. Comentario de prueba para 
 $nombre = trim($_POST["nombre_usuario"] ?? "");
 $contrasena = $_POST["contrasena"] ?? "";
 
